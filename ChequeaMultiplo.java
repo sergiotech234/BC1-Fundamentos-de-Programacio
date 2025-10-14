@@ -26,7 +26,7 @@ public class ChequeaMultiplo {
         } else {
             System.out.println(numeroAVerificar + " no es múltiplo de " + multiploIngresado); 
         }
-        
+        //modificaiones
         scanner.close(); 
     }
 }  
