@@ -1,4 +1,3 @@
-package Ejercicios.BC1;
 import java.util.Scanner;
 public class Calculadora_factorial {
     // Método simple para calcular el factorial de un número
