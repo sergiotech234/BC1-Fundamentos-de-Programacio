@@ -2,12 +2,12 @@ import java.util.Arrays;
 public class Matriz_Transpuesto {
     public static void main(String[] args) {
 
-        int[][] matrizOriginal = {
+        int[][] matriz = {
             {1, 2, 3},
             {4, 5, 6} 
         };
-        int filasOriginal = matrizOriginal.length;
-        int columnasOriginal = matrizOriginal[0].length;
+        int filasOriginal = matriz.length;
+        int columnasOriginal = matriz[0].length;
         int[][] matrizTranspuesta = new int[columnasOriginal][filasOriginal];
         for(int i = 0; i < filasOriginal; i++) { 
             for(int j = 0; j < columnasOriginal; j++) { 
