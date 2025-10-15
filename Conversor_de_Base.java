@@ -4,11 +4,9 @@ public class Conversor_de_Base {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Pedir número decimal
         System.out.print("Introduce un número decimal: ");
         int numero = sc.nextInt();
 
-        // Mostrar opciones de conversión
         System.out.println("¿A qué base quieres convertirlo?");
         System.out.println("1. Binario");
         System.out.println("2. Octal");
@@ -16,9 +14,8 @@ public class Conversor_de_Base {
         System.out.print("Elige una opción (1-3): ");
         int opcion = sc.nextInt();
 
-        String resultado = "";  // Aquí guardaremos el número convertido
+        String resultado = ""; 
 
-        // Usamos switch para decidir la conversión
         switch (opcion) {
             case 1:
                 resultado = convertirABinario(numero);
