@@ -6,7 +6,7 @@ public class BuscarArrays{
         Scanner numero = new Scanner(System.in);
         System.out.print("Ingrese el número que desea buscar en el array:"); 
         int numeroBuscar = numero.nextInt();
-
+// creamos la variable boolean para decir que si el numero que el usuario a introducio sea verdadero o falso si esta dentro de la array
         boolean localizado = false;
         for(int i = 0; i < numArray.length; i++){
             if(numArray[i] == numeroBuscar) { 
