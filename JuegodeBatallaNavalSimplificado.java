@@ -1,6 +1,6 @@
 import java.util.Scanner;  // Para leer la entrada del usuario
 import java.util.Random;   // Para generar números aleatorios
-import java.util.Arrays;   // Para usar Arrays si es necesario
+  // Para usar Arrays si es necesario
 
 public class JuegodeBatallaNavalSimplificado {
     
