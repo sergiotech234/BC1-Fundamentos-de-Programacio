@@ -1,4 +1,3 @@
-package Ejercicios.BC1;
 import java.util.Scanner;
 public class contador_de_palabras {
     // Método que cuenta cuántas palabras hay en una cadena
