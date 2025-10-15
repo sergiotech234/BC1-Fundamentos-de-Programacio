@@ -16,17 +16,17 @@ public class ChequeaMultiplo {
         System.out.println("Ingrese el número del cual quiere verificar múltiplos:"); 
         int multiploIngresado = scanner.nextInt(); 
         
-        ChequeaMultiplo checker = new ChequeaMultiplo(multiploIngresado);
+        ChequeaMultiplo verificador = new ChequeaMultiplo(multiploIngresado);
         
         System.out.println("Ingrese el número a verificar:");
         int numeroAVerificar = scanner.nextInt(); 
         
-        if (checker.esMultiplo(numeroAVerificar)) { 
+        if (verificador.esMultiplo(numeroAVerificar)) { 
             System.out.println(numeroAVerificar + " es múltiplo de " + multiploIngresado);
         } else {
             System.out.println(numeroAVerificar + " no es múltiplo de " + multiploIngresado); 
         }
-        //modificaiones
+        //modificaiones de las variables
         scanner.close(); 
     }
 }  
