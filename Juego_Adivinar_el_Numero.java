@@ -27,7 +27,6 @@ public class Juego_Adivinar_el_Numero {
                 System.out.println("El número es menor. Intenta de nuevo.");
             }
         }
-
-        System.out.println("¡Gracias por jugar!");
+        num.close();
     }
 }
