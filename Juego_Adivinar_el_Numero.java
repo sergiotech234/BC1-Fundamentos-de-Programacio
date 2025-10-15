@@ -7,7 +7,7 @@ public class Juego_Adivinar_el_Numero {
         Scanner num = new Scanner(System.in); 
         
         int numeroAleatorio = random.nextInt(99) + 1;
-        int intentos = 3;  
+        int intentos = 0;  
         boolean adivinado = false; 
         
         System.out.println("¡Bienvenido al Juego de Adivinar el Número!");
