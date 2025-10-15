@@ -11,7 +11,7 @@ public class Matriz_Transpuesto {
         int[][] matrizTranspuesta = new int[columnasOriginal][filasOriginal];
         for(int i = 0; i < filasOriginal; i++) { 
             for(int j = 0; j < columnasOriginal; j++) { 
-                matrizTranspuesta[j][i] = matrizOriginal[i][j];
+                matrizTranspuesta[j][i] = matriz[i][j];
             }
         }
         System.out.println("\nMatriz transpuesta:"); 
