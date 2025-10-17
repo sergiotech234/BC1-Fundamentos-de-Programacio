@@ -1,13 +1,10 @@
 import java.util.Scanner;
 public class palindromo {
 
-    // Método que verifica si una cadena es palíndromo (ignorando mayúsculas y espacios)
     public static boolean esPalindromo(String palabra) {
-        // Tomamos la longitud de la palabra
         int longitud = palabra.length();
         
-        // Comparamos el primer carácter con el último, el segundo con el penúltimo, etc.
-        for (int i = 0; i < longitud / 2; i++) {  // Solo hasta la mitad
+        for (int i = 0; i < longitud / 2; i++) { 
             if (palabra.charAt(i) != palabra.charAt(longitud - 1 - i)) {
                 return false;  // Si no coinciden, no es palíndromo
             }
@@ -21,14 +18,12 @@ public class palindromo {
         System.out.print("Ingrese una cadena de texto: ");
         String texto = sc.nextLine();
 
-        // Mostrar la cadena invertida
         System.out.print("La cadena en orden inverso es: ");
         for (int i = texto.length() - 1; i >= 0; i--) {
             System.out.print(texto.charAt(i));
         }
         System.out.println();
 
-        // Verificar si es palíndromo
         if (esPalindromo(texto)) {
             System.out.println("La cadena ES un palíndromo.");
         } else {
