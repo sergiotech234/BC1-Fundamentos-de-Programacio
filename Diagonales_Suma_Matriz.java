@@ -26,7 +26,9 @@ public class Diagonales_Suma_Matriz {
         int suma = 0;
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
-                suma += matriz[i][j];
+                if(i==j){
+                    suma += matriz[i][j];
+                }
             }
         }
         return suma;
